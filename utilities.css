@@ -1,0 +1,218 @@
+/* Text colors */
+.text-primary {
+  color: #28a745;
+}
+
+.text-secondary {
+  color: #0284d0;
+}
+
+/* Button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary, .bg-primary {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn-secondary, .bg-secondary {
+  background: #62bb77;
+  color: #fff;
+}
+
+.btn-dark, .bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.btn-light, .bg-light {  
+  background: #f4f4f4;
+  color: #333;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+/* Flex items */
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  align-self: auto;
+}
+
+.flex-items > div {
+  padding: 30px;
+}
+
+/* .flex-items > div p {
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+} */
+
+.flex-items > div h1, li {
+  position: relative;
+  text-align: left;
+  left: 10%;
+  line-height: 2.3;
+}
+
+/* nepotřebné */
+.flex-items-motivation {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  align-self: auto;
+}
+
+/* nepotřebné */
+.flex-items-motivation > div {
+  padding: 20px;
+  width: 50%;
+  text-align: left;
+}
+
+/* Flex columns */
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column-1,
+.flex-columns .column-2 {
+  height: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+}
+
+.flex-columns h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.flex-columns h4 {
+  margin-bottom: 10px;
+}
+
+.flex-columns p {
+  margin: 20px 0;
+  
+}
+
+/* Section header */
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #62bb77;
+}
+
+.section-header-thinner {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #62bb77;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.section-padding {
+  padding: 0px 0px 40px;
+}
+
+
+
+.myprogress {
+  display: flex;
+  min-width: 100%;
+  margin: 30px auto;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .myprogress .circle {
+  display: block;
+  background: #fff;
+  width: 50%; 
+  height: 100px;
+  border-radius: 10px;
+  border: 5px solid #28a745;
+  text-align: center;
+  }
+
+  .myprogress .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #28a745;
+  }
+
+  .myprogress .circle .label {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 30px;
+  border-radius: 40px;
+  font-size: 24px;
+  }
+
+  .myprogress .circle .title {
+  color: #b5b5ba;
+  font-size: 24px;
+  line-height: 100px;
+  }
+
+  /* Our Team */
+  .flex-items img {
+    width: 35%;
+  }
