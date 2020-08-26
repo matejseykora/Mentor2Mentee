@@ -18,19 +18,22 @@
     <title>Mentor2Mentee | Mentoring | Mentee | Student | Mentoring pro studenty</title>
   </head>
   <body id="home">
-    <header class="hero">
+    <header class="hero" class="home">
       <div id="navbar" class="navbar top">
-        <h1 class="logo">
+        <h1 class="logo"> <a href="index.html">
           <span class="text-primary"><i class="fas fa-book-open"></i> Mentor</span
-          >2<span class="text-primary">Mente</span>
+          >2<span class="text-primary">Mentee</span>
+        </a>
         </h1>
         <nav>
           <ul>
-            <li><a href="#home">Domů</a></li>
-            <li><a href="#process">Průběh</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#blog">Tým</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="current" href="index.html">Domů</a></li>
+            <!-- <li><a href="#process">Průběh</a></li> -->
+            <li><a href="mentor.html">Mentor</a></li>
+            <li><a href="mentee.html">Mentee</a></li>
+            <li><a href="team.html">Tým</a></li>
+            <!-- <li><a href="F&Q.html">F&Q</a></li> -->
+            <!-- <li><a href="contact.html">Kontakt</a></li> -->
           </ul>
         </nav>
       </div>
@@ -44,13 +47,22 @@
     </header>
 
     <main>
+      <!-- Intro -->
+      <section id="intro">
+        <header class="section-header-intro">
+          <p>Mentoring2  je ročný mentoringovo-coachingový program. V programe spájame študentov predposledného a posledného ročníka vysokej školy so skúsenými odborníkmi z praxe na základe kariérneho smerovania, osobných vlastností a záujmov.
+
+            Naši mentori poskytujú študentom odborné znalosti a poznatky, ktoré nadobudli počas svojej kariéry. Pomáhame tak študentom plniť ich pracovné ciele a rásť po profesionálnej stránke vďaka podnetným rozhovorom, či objektívnej spätnej väzbe.</p>
+        </header>
+      </section>
+
       <!-- About: Icons -->
       <section id="about" class="icons bg-light">
         <div class="flex-items">
           <div>
             <i class="fas fa-university fa-2x"></i>
             <div>
-              <h3>Osovní rozvoj</h3>
+              <h3>Zaměření</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore, iusto!
@@ -60,7 +72,7 @@
           <div>
             <i class="fas fa-book-reader fa-2x"></i>
             <div>
-              <h3>Zpětná vazba</h3>
+              <h3>Cíl</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore, iusto!
@@ -70,7 +82,7 @@
           <div>
             <i class="fas fa-pencil-alt fa-2x"></i>
             <div>
-              <h3>Zdroje informací</h3>
+              <h3>Délka programu</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore, iusto!
@@ -84,7 +96,7 @@
           <div>
             <i class="fas fa-university fa-2x"></i>
             <div>
-              <h3>"Shadowing"</h3>
+              <h3>Kde</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore, iusto!
@@ -94,7 +106,7 @@
           <div>
             <i class="fas fa-book-reader fa-2x"></i>
             <div>
-              <h3>Poradenství</h3>
+              <h3>Mentoři</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore, iusto!
@@ -104,7 +116,7 @@
           <div>
             <i class="fas fa-pencil-alt fa-2x"></i>
             <div>
-              <h3>Kontakty</h3>
+              <h3>Mentees</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore, iusto!
@@ -117,61 +129,39 @@
       <!-- Cases -->
       <section id="process" class="cases flex-grid section-padding">
         <header class="section-header">
-          <!-- <h4>Tady zjistíte jak to u nás chodí</h4> -->
           <h2>Průběh mentoringového programu</h2>
           <link rel="stylesheet" href="#">
         </header>
         <div class="myprogress">
           <div class="circle">
-            <span class="title">Přihláška</span>
+            <p class="title">Přihláška</p>
           </div>
           <span class="arrow-down"></span>
           <div class="circle">
-            <span class="title">Rozhodnutí o přijetí</span>
+            <p class="title">Zjištění potřeb menteeho</p>
           </div>
           <span class="arrow-down"></span>
           <div class="circle">
-            <span class="title">Zjištění potřeb menteeho</span>
+            <p class="title">Rozhodnutí o přijetí</p>
           </div>
           <span class="arrow-down"></span>
           <div class="circle">
-            <span class="title">Nalezení mentora</span>
+            <p class="title">Mentoringový match</p>
           </div>
           <span class="arrow-down"></span>
           <div class="circle">
-            <span class="title">První schůzka s mentorem</span>
+            <p class="title">První schůzka s mentorem</p>
+          </div>
+          <span class="arrow-down"></span>
+          <div class="circle">
+            <p class="title">Pravidelné mentoringové setkávání</p>
           </div>
         </div>
       </section>
 
-            <!-- Team and motivation -->
-            <section id="team" class="team section-padding">
-              <header class="section-header">
-                <h2>Náš tým</h2>
-              </header>
-              <div class="flex-items">
-                <div>
-                  <img src="img/team/matejseykora.jpg" alt="">
-                  <h4>Filip Vánik</h4>
-                  <p>student VŠE se zájmem o marketing, sales, startupy a podobně</p>
-                  <div>
-                    <h1>Proč to dělám</h1>
-                    <li>naučit se rozběhnout projekt</li>
-                    <li>zkušenost s mentoringovým programem</li>
-                  </div>
-                </div>
-                <div>
-                  <img src="img/team/matejseykora.jpg" alt="">
-                  <h4>Matěj Seykora</h4>
-                  <p>student IES FSV UK se zájmem o technologie, startupy a podobně</p>
-                  <div>
-                    <h1>Proč to dělám</h1>
-                    <li>naučit se rozběhnout projekt</li>
-                    <li>mentoring je pro mě nově objevený svět</li>
-                  </div>
-                </div>
-              </div>
-            </section>
+      <!-- Partners -->
+
+      <!-- Succesfull pairs -->
 
       <!-- Naše motivace
       <section id="team" class="team section-padding">
@@ -191,45 +181,88 @@
         </div>
       </section> -->
 
-      <!-- Kontakt -->
-      <section id="contact" class="contact flex-columns">
-        <div class="row">
-          <div class="column">
-            <div class="column-1">
-              <img src="img/home/contact.jpg" alt="">
-            </div>
+ <!-- Kontakt -->
+ <section id="contact" class="contact flex-columns">
+  <div class="row">
+    <div class="column">
+      <div class="column-1">
+        <img src="img/home/contact.jpg" alt="">
+      </div>
+    </div>
+    <div class="column">
+      <div class="column-2 bg-light">
+        <h2>Kontaktujte nás</h2>
+        <form name="contact" action="process.php" method="POST" data-netlify="true" class="callback-form">
+          <div class="form control">
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Jméno">
           </div>
-          <div class="column">
-            <div class="column-2 bg-light">
-              <h2>Kontaktujte nás</h2>
-              <form name="contact" action="process.php" method="POST" data-netlify="true" class="callback-form">
-                <div class="form control">
-                  <label for="name"></label>
-                  <input type="text" name="name" id="name" placeholder="Jméno">
-                </div>
-                <div class="form control">
-                  <label for="email"></label>
-                  <input type="email" name="email" id="email" placeholder="Email">
-                </div>
-                <div class="form control">
-                  <label for="phone"></label>
-                  <input type="text" name="phone" id="phone" placeholder="Telefon">
-                </div> 
-                <input type="submit" value="Send" id="submit" class="btn">
-              </form>
-            </div>
+          <div class="form control">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Email">
           </div>
-        </div>
-      </section>
-    </main>
+          <div class="form control">
+            <label for="phone"></label>
+            <input type="text" name="phone" id="phone" placeholder="Telefon">
+          </div> 
+          <input type="submit" value="Odeslat" id="submit" class="btn">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 
     <footer class="footer bg-dark">
       <div class="social">
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
       </div>
       <p>Copyright &copy; 2020 - Mentor2Mentee</p>
     </footer>
-</body>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+      const navbar = document.getElementById('navbar');
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove('top');
+          if (!scrolled) {
+            navbar.style.transform = 'translateY(-70px)';
+          }
+          setTimeout(function () {
+            navbar.style.transform = 'translateY(0)';
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add('top');
+          scrolled = false;
+        }
+      };
+
+      // Smooth Scrolling
+      $('#navbar a, .btn').on('click', function (e) {
+        if (this.hash !== '') {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
+  </body>
 </html>
