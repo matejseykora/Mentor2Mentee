@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="Vítejte na mentoringovém programu pro studenty v České republice">
+    <meta name="keywords" content="mentoring,mentor,mentee,student,studenti,vzdelavani">
+    <title>Mentor2Mentee | Mentoring | Mentee | Student | Mentoring pro studenty</title>
+  </head>
+  <body id="home">
+    <header class="hero_mentee">
+      <div id="navbar" class="navbar top">
+        <h1 class="logo"> <a href="index.html">
+          <span class="text-primary"><i class="fas fa-book-open"></i> Mentor</span
+          >2<span class="text-primary">Mentee</span>
+        </a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Domů</a></li>
+            <!-- <li><a href="#process">Průběh</a></li> -->
+            <li><a href="mentor.html">Mentor</a></li>
+            <li><a class="current" href="mentee.html">Mentee</a></li>
+            <li><a href="team.html">Tým</a></li>
+            <!-- <li><a href="F&Q.html">F&Q</a></li> -->
+            <!-- <li><a href="contact.html">Kontakt</a></li> -->
+          </ul>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1>Nevyužít příležitosti je přece škoda.</h1>
+        <p>Zajistíme kvalitní mentory</p>
+        <a href="#about" class="btn"
+          ><i class="fas fa-chevron-right"></i> Chci vědět víc</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Intro -->
+      <section id="intro">
+        <header class="section-header-intro">
+          <p>Mentoring2  je ročný mentoringovo-coachingový program. V programe spájame študentov predposledného a posledného ročníka vysokej školy so skúsenými odborníkmi z praxe na základe kariérneho smerovania, osobných vlastností a záujmov.
+
+            Naši mentori poskytujú študentom odborné znalosti a poznatky, ktoré nadobudli počas svojej kariéry. Pomáhame tak študentom plniť ich pracovné ciele a rásť po profesionálnej stránke vďaka podnetným rozhovorom, či objektívnej spätnej väzbe.</p>
+        </header>
+      </section>
+
+      <!-- About: Icons -->
+      <section id="about" class="icons bg-light">
+        <div class="flex-items">
+          <div>
+            <i class="fas fa-university fa-2x"></i>
+            <div>
+              <h3>Zaměření</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore, iusto!
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-book-reader fa-2x"></i>
+            <div>
+              <h3>Cíl</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore, iusto!
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-pencil-alt fa-2x"></i>
+            <div>
+              <h3>Délka programu</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore, iusto!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="icons bg-light">
+        <div class="flex-items">
+          <div>
+            <i class="fas fa-university fa-2x"></i>
+            <div>
+              <h3>Kde</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore, iusto!
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-book-reader fa-2x"></i>
+            <div>
+              <h3>Mentoři</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore, iusto!
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-pencil-alt fa-2x"></i>
+            <div>
+              <h3>Mentees</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore, iusto!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kontakt -->
+      <section id="contact" class="contact flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="img/home/contact.jpg" alt="">
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-light">
+              <h2>Přihlaš se do programu</h2>
+              <form name="contact" action="process.php" method="POST" data-netlify="true" class="callback-form">
+                <div class="form control">
+                  <label for="name"></label>
+                  <input type="text" name="name" id="name" placeholder="Jméno">
+                </div>
+                <div class="form control">
+                  <label for="email"></label>
+                  <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form control">
+                  <label for="phone"></label>
+                  <input type="text" name="phone" id="phone" placeholder="Telefon">
+                </div> 
+                <input type="submit" value="Odeslat" id="submit" class="btn">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy; 2020 - Mentor2Mentee</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+      const navbar = document.getElementById('navbar');
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove('top');
+          if (!scrolled) {
+            navbar.style.transform = 'translateY(-70px)';
+          }
+          setTimeout(function () {
+            navbar.style.transform = 'translateY(0)';
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add('top');
+          scrolled = false;
+        }
+      };
+
+      // Smooth Scrolling
+      $('#navbar a, .btn').on('click', function (e) {
+        if (this.hash !== '') {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
+  </body>
+</html>
