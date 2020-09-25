@@ -185,26 +185,21 @@
    <div class="column">
      <div class="column-2 bg-light">
        <h2>Kontaktujte nás jako mentor nebo mentee:</h2>
-       <form name="contact" method="POST" data-netlify="true">
-        <p>
-          <label class="form-control">Vaše celé jméno: <input type="text" name="name" /></label>   
-        </p>
-        <p>
-          <label class="form-control">Váš Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label class="form-control">Vaše role: <select name="role[]" multiple>
-            <option value="leader">Mentor</option>
-            <option value="follower">Mentee</option>
-          </select></label>
-        </p>
-        <p>
-          <label>Zpráva: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button id="submit" type="submit">Send</button>
-        </p>
-      </form>
+          <form name="contact" method="POST" data-netlify="true" class="callback-form">
+            <div class="form control">
+              <label for="name"></label>
+              <input type="text" name="name" id="name" placeholder="Jméno">
+            </div>
+            <div class="form control">
+              <label for="email"></label>
+              <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="form control">
+              <label for="phone"></label>
+              <input type="text" name="phone" id="phone" placeholder="Telefon">
+            </div> 
+            <input type="submit" value="Odeslat" id="submit" class="btn">
+          </form>
      </div>
    </div>
  </div>
