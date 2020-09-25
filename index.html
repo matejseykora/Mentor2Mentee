@@ -174,26 +174,41 @@
         </div>
       </section> -->
 
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+<!-- Kontakt -->
+<section id="contact" class="contact flex-columns">
+ <div class="row">
+   <div class="column">
+     <div class="column-1">
+       <img src="img/home/contact.jpg" alt="">
+     </div>
+   </div>
+   <div class="column">
+     <div class="column-2 bg-light">
+       <h2>Kontaktujte nás jako mentor nebo mentee:</h2>
+       <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label class="form-control">Vaše celé jméno: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label class="form-control">Váš Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label class="form-control">Vaše role: <select name="role[]" multiple>
+            <option value="leader">Mentor</option>
+            <option value="follower">Mentee</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Zpráva: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button id="submit" type="submit">Send</button>
+        </p>
+      </form>
+     </div>
+   </div>
+ </div>
+</section>
 
     <footer class="footer bg-dark">
       <div class="social">
